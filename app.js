@@ -1,5 +1,5 @@
 require('dotenv').config();
 
-process.env.USER_ID; // "239482"
-process.env.USER_KEY; // "foobar"
-process.env.NODE_ENV; // "development"
+process.env.USER_ID;
+process.env.USER_KEY;
+process.env.NODE_ENV;
