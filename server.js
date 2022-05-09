@@ -14,10 +14,14 @@ const server = http.createServer((req, res) => {
     console.log(err);
     res.end();
   } else {
+    res.write(data);
     res.end(data);
   }
+})
 });
 
+  // server listen statement
   server.listen(3000, 'localhost', () => {
   console.log('listen for requests on port 3000');
-})});
+
+});
