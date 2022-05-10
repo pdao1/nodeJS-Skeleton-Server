@@ -2,6 +2,24 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.0",
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nodejs-skeleton-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdao1/nodeJS-Skeleton-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdao1/nodeJS-Skeleton-Server/issues"
+  },
+  "homepage": "https://github.com/pdao1/nodeJS-Skeleton-Server#readme",
+  "description": ""
 }
