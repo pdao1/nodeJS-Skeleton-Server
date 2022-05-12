@@ -3,6 +3,9 @@ const express = require('express');
 // define express app & invoking it
 const app = express();
 
+// register view engine
+app.set('view engine', 'ejs');
+
 // listen for requests at port 3000
 app.listen(3000);
 
